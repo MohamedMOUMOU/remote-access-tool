@@ -1,0 +1,20 @@
+# ignore build folders for ServiceModel folder
+
+ServiceModel/.gradle
+ServiceModel/**/build/
+!ServiceModel/src/**/build/
+
+# ignore build folders for AsynchronousClient/OpenAPI folder
+
+AsynchronousClient/OpenAPI/.gradle
+AsynchronousClient/OpenAPI/**/build/
+!AsynchronousClient/OpenAPI/src/**/build/
+AsynchronousClient/OpenAPI/src/main/js/consumer/node_modules
+AsynchronousClient/OpenAPI/src/main/js/consumer/stub
+
+# ignore build folders for AsynchronousClient/XMLSoap folder
+
+AsynchronousClient/XMLSoap/.gradle
+AsynchronousClient/XMLSoap/**/build/
+!AsynchronousClient/XMLSoap/src/**/build/
+AsynchronousClient/XMLSoap/src/main/js/node_modules
